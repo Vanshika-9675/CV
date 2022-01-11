@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<h1>Tell us about yourself</h1>
+<p>This information will be in secured hands.</p>
+<form action="mailto:vanshika1220650@gmail.com" method="post" enctype="text/plain">
+    <label for="Yname">Your Name: </label>
+    <input type="text" nzme="yname" required><br>
+    <br>
+    <label for="email">Your Email:  </label>
+    <input type="email" name ="yemail" required><br>
+    <br><label>Enter username </label>
+    <input type="text" name="your text" required><br>
+    <br><br>
+    <br>
+    <label>Your photo: </label>
+    <input type="file" name="yourimage"><br>
+    <br>
+    <label for="">Enter you DOB</label>
+    <input type="date" name=your_dob><br>
+    <br>
+    <label for="">Enter your mobile number</label>
+    <input type="tel"  placeholder="12-4765-6798"  pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required><br>
+    <br>
+    <h2>SKILLS</h2>
+    <p>Slide according to your profficiency in pa rticular skill</p>
+    <label>sports</label>
+    <input type="range" name="sports">
+    <label>photography</label>
+    <input type="range" name="photography">
+    <label>Fine arts</label>
+    <input type="range" name="Fine arts">
+    <label>programming</label>
+    <input type="range" name="programming">
+    <h3>Feedback</h3>
+    <textarea name="name" rows="20" cols="30"></textarea>
+        <br>
+        <label>Click here for the approval</label>
+        <input type="checkbox">
+        <br>
+        <input type="submit">
+</form>
+
+</body>
+</html>
